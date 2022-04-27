@@ -23,7 +23,7 @@ func main() {
 
 ```
 
-# Knowledge gained
+# Knowledge Gained
 
 We need to include our code to a package, so for now we used package main and created a function main. Which means that entrypoint of our application is a main function.
 Package main creates a directory instead our Go container/project. Next line is import "fmt". To clarify this one we should start with import which simply imports packages. This time we 
