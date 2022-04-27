@@ -1,7 +1,5 @@
 # Excercise 1.Hello World
 
---
-
 # Instructions
 The classical introductory exercise. Just say "Hello, World!".
 
