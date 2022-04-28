@@ -9,7 +9,7 @@ func CanFastAttack(knightIsAwake bool) bool {
 
 // Task 2
 func CanSpy(knightIsAwake, archerIsAwake, prisonerIsAwake bool) bool {
-	if knightIsAwake == true || archerIsAwake == true || prisonerIsAwake == true {
+	if knightIsAwake || archerIsAwake || prisonerIsAwake {
 		return true
 	} else {
 		return false
@@ -18,7 +18,7 @@ func CanSpy(knightIsAwake, archerIsAwake, prisonerIsAwake bool) bool {
 
 // Task 3
 func CanSignalPrisoner(archerIsAwake, prisonerIsAwake bool) bool {
-	if archerIsAwake == false && prisonerIsAwake == true {
+	if !archerIsAwake && prisonerIsAwake {
 		return true
 	} else {
 		return false
@@ -27,9 +27,9 @@ func CanSignalPrisoner(archerIsAwake, prisonerIsAwake bool) bool {
 
 // Task 4
 func CanFreePrisoner(knightIsAwake, archerIsAwake, prisonerIsAwake, petDogIsPresent bool) bool {
-	if petDogIsPresent == true && archerIsAwake == false {
+	if petDogIsPresent && !archerIsAwake {
 		return true
-	} else if petDogIsPresent == false && prisonerIsAwake == true && archerIsAwake == false && knightIsAwake == false {
+	} else if !petDogIsPresent && prisonerIsAwake && !archerIsAwake && !knightIsAwake {
 		return true
 	} else {
 		return false
