@@ -85,3 +85,4 @@ f := float32(x)
 
 
 # Arithmetic operations
+Operations are allowed only on the variables of same type !!!
