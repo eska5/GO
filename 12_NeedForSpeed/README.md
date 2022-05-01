@@ -1,5 +1,5 @@
 
-# Excercise 9.Vehicle Purchase
+# Excercise 12.NeedForSpeed
 
 # Instructions
 In this exercise you'll be organizing races between various types of remote controlled cars. Each car has its own speed and battery drain characteristics.
