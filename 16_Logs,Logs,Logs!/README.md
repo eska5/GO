@@ -13,7 +13,7 @@ Implement the `Application` function that takes a log line and returns the appli
 To identify which application emitted a given log line, search the log line for a specific character as specified by the following table:
 
 Application | Character | Unicode Code Point
---------------------------------------------
+----------- | --------- | ------------------
 `recommendation`	|	❗	|	`U+2757`
 `search`	|	🔍	|	`U+1F50D`
 `weather` | ☀	| `U+2600`
