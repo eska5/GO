@@ -2,13 +2,11 @@
 # Excercise 22.Election Day !
 
 # Instructions
-
-# Tasks
-
 A local school near you has a very active students' association. The students' association is managed by a president and once every 2 years, elections are run to elect a new president.
 
 In this year's election, it was decided that a new digital system to count the votes was needed. The school needs your help building this new system.
 
+# Tasks
 1. Create a vote counter
 
 One of the first things that the new voting system needs is a vote counter. This counter is a way to keep track of the votes a particular candidate has.

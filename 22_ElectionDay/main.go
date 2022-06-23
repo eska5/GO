@@ -31,8 +31,8 @@ func IncrementVoteCount(counter *int, increment int) {
 
 // Task4
 func NewElectionResult(candidateName string, votes int) *ElectionResult {
-	var result *ElectionResult
-	result = &ElectionResult{Name: candidateName, Votes: votes}
+	var result = &ElectionResult{Name: candidateName, Votes: votes} //*ElectionResult
+	//result = &ElectionResult{Name: candidateName, Votes: votes}
 	return result
 }
 
